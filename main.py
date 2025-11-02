@@ -7,7 +7,7 @@ import base64
 
 MAX_LIMIT = 10 * 1024 * 1024 # 10MB
 
-app = FastAPI(title="PaletteVision – Image Color Analyzer", version="0.1")
+app = FastAPI(title="PaletteVision – Image Color Analyzer", version="0.1.0")
 
 
 @app.get("/", include_in_schema=False)
