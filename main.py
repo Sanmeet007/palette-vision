@@ -1,4 +1,4 @@
-from pallete_vision.color_utils import extract_dominant_colors, format_color
+from palette_vision.color_utils import extract_dominant_colors, format_color
 from fastapi import FastAPI, File, UploadFile, Form, HTTPException, Body
 from fastapi.responses import JSONResponse, RedirectResponse
 from pydantic import BaseModel, Field
